@@ -1,6 +1,6 @@
 # A bit of everything
 
-This is the Next.js source repo for https://everything-portfolio-kappa.vercel.app/gallery.
+This is the Next.js source repo for https://everything-portfolio-kappa.vercel.app/.
 
 The project is based on the [Nextfolio](https://vercel.com/templates/next.js/nextfolio-a-simple-next-js-portfolio) template.
 
