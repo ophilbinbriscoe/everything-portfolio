@@ -1,0 +1,67 @@
+---
+title: "Rollercoaster sim prototype"
+publishedAt: "2024-08-13"
+summary: "A side-project from 2024."
+tags: "unity, game development, hobby"
+---
+
+## Context
+
+Over the holidays, I was had some time to kill and was interested in trying out the latest version of Unity 6.
+
+I had always loved simulation games, and thought that it would be fun to prototype an RCT-like game set in space.
+
+### What I built
+
+I mocked up a few systems for this prototype:
+
+- track mesh generator, with supports
+- custom rollercoaster physics
+- guest queueing system
+- guest arrival/departure system
+- basic object placement system
+
+Here are a few screen captures.
+
+<Video
+  src="https://d36lvgaj76ceb1.cloudfront.net/park-boarding.mp4"
+/>
+<Caption>
+  Guests boarding a ride.
+</Caption>
+
+<Video
+  src="https://d36lvgaj76ceb1.cloudfront.net/park-animation.mp4"
+/>
+<Caption>
+  Movement along a track.
+</Caption>
+
+<Video
+  src="https://d36lvgaj76ceb1.cloudfront.net/park-placement.mp4"
+/>
+<Caption>
+  Object pickup/rotate tool.
+</Caption>
+
+<Video
+  src="https://d36lvgaj76ceb1.cloudfront.net/park-multiselect.mp4"
+/>
+<Caption>
+  Multi-select support.
+</Caption>
+
+<Video
+  src="https://d36lvgaj76ceb1.cloudfront.net/park-early-tests.mp4"
+/>
+<Caption>
+  Early track geometry and physics test.
+</Caption>
+
+## Disclaimers
+
+The only assets I used for this project were Aron Granberg's [A* Pathfinding Project](https://arongranberg.com/astar/) (for guest pathing), and the [Linework](https://assetstore.unity.com/packages/vfx/shaders/linework-outlines-and-edge-detection-294140) asset for object outlining.
+
+The project also relies on Unity's built-in [Splines](https://docs.unity3d.com/Packages/com.unity.splines@2.4/manual/index.html) package, which provides a basic Bezier curve solver.
+
+All of the art assets (character models, props) are CC0 or generated at runtime (track geometry).
