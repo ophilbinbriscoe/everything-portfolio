@@ -53,6 +53,10 @@ export default function Page() {
             Sirius
           </a>, who build and maintain this template.
         </p>
+        <p>
+          The source repo for this site is{" "}
+          <a href="https://github.com/ophilbinbriscoe/everything-portfolio" target="_blank" rel="noopener noreferrer">here</a>.
+        </p>
       </div>
     </section>
   );
